@@ -5,4 +5,3 @@ iso3166==2.1.1
 flask-cors==3.0.10
 python-dotenv==1.0.0
 werkzeug==2.2.3
-git+https://github.com/facebookresearch/Ad-Library-API-Script-Repository.git#egg=fb_ads_library_api&subdirectory=python
