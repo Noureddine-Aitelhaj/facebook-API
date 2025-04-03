@@ -2,9 +2,6 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-# Install git for cloning the Facebook repository
-RUN apt-get update && apt-get install -y git
-
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
